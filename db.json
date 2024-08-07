@@ -1,0 +1,41 @@
+{
+  "skills": [
+    {
+      "id": 1,
+      "lang": "react js",
+      "percentage": 75,
+      "senior": true,
+      "imgSkill": "/images/react.png"
+    },
+    {
+      "id": 2,
+      "lang": "python",
+      "percentage": 40,
+      "senior": false,
+      "imgSkill": "/images/python.png"
+    },
+    {
+      "id": 3,
+      "lang": "javascript",
+      "percentage": 70,
+      "senior": false,
+      "imgSkill": "/images/js.png"
+    },
+    {
+      "id": 4,
+      "lang": "nextjs",
+      "percentage": 75,
+      "senior": true,
+      "imgSkill": "/images/nextjs.jpg"
+    }
+  ],
+  "users": [
+    {
+      "name": "mohammad",
+      "email": "mohammad@gmail.com",
+      "password": "mohammad"
+    },
+    { "name": "reza", "email": "reza@gmail.com", "password": "reza" },
+    { "name": "mehrdad", "email": "mehrdad@gmail.com", "password": "mehrdad" }
+  ]
+}

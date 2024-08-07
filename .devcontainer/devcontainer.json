@@ -1,0 +1,24 @@
+{
+    "name": "Node.js and MySQL",
+    "dockerFile": "Dockerfile",
+    "forwardPorts": [3306],
+    "postCreateCommand": "sudo service mysql start && sudo mysql -e \"ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'yourpassword'; FLUSH PRIVILEGES;\"",
+    "customizations": {
+        "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash"
+    },
+    "extensions": [
+        "dbaeumer.vscode-eslint",
+        "ms-vscode.vscode-node-azure-pack"
+    ],
+    "vscode": {
+        "extensions": [
+            "ms-azuretools.vscode-docker",
+            "cweijan.vscode-mysql-client2",
+            "dsznajder.es7-react-js-snippets",
+            "formulahendry.auto-rename-tag",
+            "formulahendry.auto-close-tag"
+        ]
+    }
+    }
+}

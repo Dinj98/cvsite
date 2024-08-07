@@ -1,18 +1,3 @@
-<<<<<<< HEAD
-import SignupForm from "../components/Signupp";
-
-import React from "react";
-
-const page = () => {
-  return (
-    <div>
-      <SignupForm />
-    </div>
-  );
-};
-
-export default page;
-=======
 // app/signup/page.js
 "use client";
 
@@ -90,4 +75,3 @@ export default function SignUpPage() {
     </div>
   );
 }
->>>>>>> 00a88ba ('version@1.0.1')

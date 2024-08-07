@@ -11,27 +11,15 @@
   },
   "dependencies": {
     "@canvasjs/react-charts": "^1.0.2",
-<<<<<<< HEAD
-=======
     "@emotion/react": "^11.13.0",
     "@emotion/styled": "^11.13.0",
     "@mui/material": "^5.16.6",
     "axios": "^1.7.3",
     "bcryptjs": "^2.4.3",
->>>>>>> 00a88ba ('version@1.0.1')
     "chart.js": "^4.4.3",
     "chartjs-react": "^4.2.1",
     "formik": "^2.4.6",
     "googleapis": "^140.0.1",
-<<<<<<< HEAD
-    "next": "14.2.5",
-    "next-auth": "^4.24.7",
-    "nodemailer": "^6.9.14",
-    "react": "^18",
-    "react-chartjs-2": "^5.2.0",
-    "react-dom": "^18",
-    "react-loading-skeleton": "^3.4.0",
-=======
     "jsonwebtoken": "^9.0.2",
     "mysql2": "^3.11.0",
     "next": "14.2.5",
@@ -44,7 +32,6 @@
     "react-dom": "^18",
     "react-loading-skeleton": "^3.4.0",
     "react-wow": "^1.0.0",
->>>>>>> 00a88ba ('version@1.0.1')
     "yup": "^1.4.0"
   },
   "devDependencies": {

@@ -2,11 +2,8 @@ import { Vazirmatn } from "next/font/google";
 import "./globals.css";
 import Footer from "@/app/components/Footer";
 import Providers from "./providers";
-<<<<<<< HEAD
-=======
 import Navigation from "./components/Navigation";
 
->>>>>>> 00a88ba ('version@1.0.1')
 const inter = Vazirmatn({ subsets: ["latin"] });
 
 export const metadata = {
@@ -19,10 +16,7 @@ export default async function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
         <Providers>
-<<<<<<< HEAD
-=======
           <Navigation />
->>>>>>> 00a88ba ('version@1.0.1')
           <div>
             <div className="bg-[#f7d9cd]">{children}</div>
             <div className="bottom-0">

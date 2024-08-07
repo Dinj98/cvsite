@@ -4,10 +4,7 @@ import SkillComp from "./SkillComp";
 // import Skeleton from "react-loading-skeleton";
 // import "react-loading-skeleton/dist/skeleton.css";
 import Loading from "./Loading";
-<<<<<<< HEAD
-=======
 // import ReactWOW from "react-wow";
->>>>>>> 00a88ba ('version@1.0.1')
 
 const Skills = () => {
   const [skills, setSkills] = useState([]);
@@ -55,13 +52,10 @@ const Skills = () => {
               key={skill.id}
               className="bg-white text-red-500 grid grid-cols-2"
             >
-<<<<<<< HEAD
               <SkillComp skill={skill} />
-=======
               {/* <ReactWOW animation="fadeIn"> */}
               <SkillComp skill={skill} />
               {/* </ReactWOW> */}
->>>>>>> 00a88ba ('version@1.0.1')
             </div>
           ))}
         </div>

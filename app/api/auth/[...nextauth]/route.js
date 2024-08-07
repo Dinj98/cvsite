@@ -1,22 +1,8 @@
-<<<<<<< HEAD
-import NextAuth from "next-auth";
-import GitHubProvider from "next-auth/providers/github";
-
-const authOptions = {
-  providers: [
-    GitHubProvider({
-      clientId: process.env.GITHUB_ID,
-      clientSecret: process.env.GITHUB_SECRET,
-    }),
-  ],
-  // Add additional options here if needed
-=======
-// app/api/auth/[...nextauth]/route.js
 import NextAuth from "next-auth";
 import CredentialsProvider from "next-auth/providers/credentials";
 import axios from "axios";
 
-const authOptions = {
+export const authOptions = {
   providers: [
     CredentialsProvider({
       name: "Credentials",
@@ -61,7 +47,6 @@ const authOptions = {
     signIn: "/login",
   },
   secret: process.env.NEXTAUTH_SECRET,
->>>>>>> 00a88ba ('version@1.0.1')
 };
 
 const handler = NextAuth(authOptions);
